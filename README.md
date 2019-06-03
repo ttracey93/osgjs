@@ -3,3 +3,9 @@ This shall be my attempt to rewrite osgjs. For starters I will be migrating the 
 
 ## Why?
 Mostly to learn some nifty stuff, but also to explore what the capabilities of Rust/WASM together really are, and how much more performance can be pulled out of the browser aether. WebGL is quickly becoming one of my favorite things about the internet ecosystem, and I think an extremely powerful and robust open source WebGL wrapper is sorely needed. One of my eventual hopes is that the library can also be used for cross platform game development using common web tools. I would imagine the *new* OSG.js would be the renderer, and common web components can be used for the UI. Something like electron/QT might get the job done.
+
+## Why choose OSG.js?
+Writing complex graphcis processors from scratch is not really my forte, and I rather like the idea of rewriting/organizing and existing library rather than trying to reinvent everything, especially given my lack of traditional computer graphics knowledge. After spending a few months contracting on a 3D web application using Three.js I decided to rewrite that library. Eventually I found myself attracted to the OSG.js library instead, but it has a number of problems that I want to address. Sadly development was halted years ago after Sketchfab took their internal work in a more proprietary direction, which I think is highly regrettable.
+
+## Endgame
+My endgame goal is to create a set of tools for 3D environment creation. Think Tabletop Simulator but a lot less wonky. Personally I would like to use these tools to sculpt and texture 3D models and put together larger 3D environments. I would then like to use them to write some basic event scripts and essentially have my own personal DnD campaign orchestrated in real time in a full 3D envrionment. At some point I would like to add VR support as well, allowing people to become fully immersed in their new environments.
